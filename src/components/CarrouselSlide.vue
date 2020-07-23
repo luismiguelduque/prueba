@@ -2,21 +2,21 @@
     <div>
         <carousel :perPage="1">
             <slide>
-                <img class="image-slide" src="../assets/puf2.jpg">
+                <img class="image-slide" src="../assets/10.png">
                 <div class="text-slide">ESTÁR CÓMODO,<br/> NUNCA FUE TAN FACIL</div>
                 <div class="button-slide-contentainer">
                     <div class="button-slide">SHOP</div>
                 </div>
             </slide>
             <slide>
-                <img class="image-slide" src="../assets/puf2.jpg">
+                <img class="image-slide" src="../assets/10.png">
                 <div class="text-slide">ESTÁR CÓMODO,<br/> NUNCA FUE TAN FACIL</div>
                 <div class="button-slide-contentainer">
                     <div class="button-slide">SHOP</div>
                 </div>
             </slide>
             <slide>
-                <img class="image-slide" src="../assets/puf2.jpg">
+                <img class="image-slide" src="../assets/10.png">
                 <div class="text-slide">ESTÁR CÓMODO,<br/> NUNCA FUE TAN FACIL</div>
                 <div class="button-slide-contentainer">
                     <div class="button-slide">SHOP</div>
@@ -50,11 +50,11 @@
         }
 
         .text-slide {
-            font-size: 4rem;
+            font-size: 3.7rem;
             color: white;
             position: absolute;
             width: 100%;
-            top: 170px;
+            top: 200px;
             text-align: center;
             text-shadow: 1px 1px 8px rgba(50, 50, 50, 0.9);
         }
