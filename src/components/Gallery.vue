@@ -1,7 +1,7 @@
 <template>
-    <div class="columns">
+    <div class="columns mt-6">
         <div class="column is-half is-offset-one-quarter">
-            <div class="columns is-multiline">
+            <div class="columns is-gapless is-multiline">
                 <div class="column is-4" v-for="(item, index) in items" :key="index">
                     <img class="image-gallery" :src="getImgUrl(item.image)">
                 </div>
@@ -40,5 +40,7 @@
 <style lang="scss">
     .image-gallery{
         width: 100%;
+        height: 100%;
+        border: 1px solid white;
     }
 </style>

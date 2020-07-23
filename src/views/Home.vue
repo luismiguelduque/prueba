@@ -9,8 +9,8 @@
     </box>
     <title-section title="#ESPUFI" subtitle="INSTAGRAM"></title-section>
     <gallery></gallery>
-    <title-section title="SUSCRIBITE" subtitle="NEWSLETTER" bottom="Y enterate de todas las novedades"></title-section>
-    <suscribite></suscribite>
+    <title-section title="SUSCRIBETE" subtitle="NEWSLETTER" bottom="Y enterate de todas las novedades"></title-section>
+    <newsletter></newsletter>
     <footer-content></footer-content>
   </div>
 </template>
@@ -20,7 +20,7 @@
 import Box from "../components/Box";
 import CarrouselSlide from "../components/CarrouselSlide";
 import Gallery from "../components/Gallery";
-import Suscribite from "../components/Suscribite";
+import Newsletter from "../components/Newsletter";
 import FooterContent from "../components/FooterContent";
 import MenuContent from "../components/MenuContent";
 import productItems from "../utils/productsItems";
@@ -42,7 +42,7 @@ export default {
     FooterContent,
     CarrouselSlide,
     Gallery,
-    Suscribite,
+    Newsletter,
     MenuContent,
     TitleSection
   }

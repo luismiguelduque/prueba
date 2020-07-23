@@ -1,5 +1,5 @@
 <template>
-    <div class="Columns mt-6 mb-6">
+    <div class="Columns mt-6 mb-4">
         <div class="Column">
             <div class="Columns">
                 <div class="Column has-text-centered">
