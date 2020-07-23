@@ -1,7 +1,7 @@
 <template>
   <div>
     <menu-content></menu-content>
-    <slider></slider>
+    <carrousel-slide></carrousel-slide>
     <div>
 
     </div>
@@ -14,7 +14,7 @@
 <script>
 // @ is an alias to /src
 //import Box from "../components/Box";
-import Slider from "../components/Slider";
+import CarrouselSlide from "../components/CarrouselSlide";
 import Instagram from "../components/Instagram";
 import Suscribite from "../components/Suscribite";
 import FooterContent from "../components/FooterContent";
@@ -25,7 +25,7 @@ export default {
   components: {
     //Box,
     FooterContent,
-    Slider,
+    CarrouselSlide,
     Instagram,
     Suscribite,
     MenuContent,
