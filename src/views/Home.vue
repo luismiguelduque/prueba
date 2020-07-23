@@ -7,7 +7,7 @@
          :data="product"
          :index="index">
     </box>
-    <instagram></instagram>
+    <gallery></gallery>
     <suscribite></suscribite>
     <footer-content></footer-content>
   </div>
@@ -17,7 +17,7 @@
 // @ is an alias to /src
 import Box from "../components/Box";
 import CarrouselSlide from "../components/CarrouselSlide";
-import Instagram from "../components/Instagram";
+import Gallery from "../components/Gallery";
 import Suscribite from "../components/Suscribite";
 import FooterContent from "../components/FooterContent";
 import MenuContent from "../components/MenuContent";
@@ -38,7 +38,7 @@ export default {
     Box,
     FooterContent,
     CarrouselSlide,
-    Instagram,
+    Gallery,
     Suscribite,
     MenuContent,
   }
