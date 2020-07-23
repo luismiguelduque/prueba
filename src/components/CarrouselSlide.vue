@@ -27,12 +27,11 @@
 </template>
 
 <script>
-    import { Carousel, Slide } from 'vue-carousel';
+    import {Carousel, Slide} from 'vue-carousel';
+
     export default {
         data() {
-            return {
-
-            };
+            return {};
         },
         components: {
             Carousel,
@@ -42,37 +41,43 @@
 </script>
 
 <style lang="scss">
-    .image-slide{
-        width: 100% !important;
-        position: relative;
-    }
-    .text-slide{
-        font-size: 4rem;
-        color: white;
-        position: absolute;
-        width: 100%;
-        top: 170px;
-        text-align: center;
-        text-shadow: 1px 1px 8px rgba(50,50,50, 0.9);
-    }
-    .button-slide-contentainer{
-        position: absolute;
-        width: 100%;
-        bottom: 100px;
-        .button-slide{
-            width: 160px;
-            letter-spacing: 0.45rem;
-            font-size: 1rem;
-            color: white;
-            border: 2.5px solid white;
-            padding: 20px 0px;
-            margin: 0px auto;
-            text-align: center;
+    .VueCarousel {
+        top: -72px;
+        .image-slide {
+            width: 100% !important;
+            position: relative;
         }
-    }
 
-    .VueCarousel-pagination{
-        position: absolute;
-        bottom: 50px;
+        .text-slide {
+            font-size: 4rem;
+            color: white;
+            position: absolute;
+            width: 100%;
+            top: 170px;
+            text-align: center;
+            text-shadow: 1px 1px 8px rgba(50, 50, 50, 0.9);
+        }
+
+        .button-slide-contentainer {
+            position: absolute;
+            width: 100%;
+            bottom: 100px;
+
+            .button-slide {
+                width: 160px;
+                letter-spacing: 0.45rem;
+                font-size: 1rem;
+                color: white;
+                border: 2.5px solid white;
+                padding: 20px 0px;
+                margin: 0px auto;
+                text-align: center;
+            }
+        }
+
+        .VueCarousel-pagination {
+            position: absolute;
+            bottom: 50px;
+        }
     }
 </style>

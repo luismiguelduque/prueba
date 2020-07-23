@@ -63,12 +63,13 @@
 <style lang="scss">
     .navbar {
         padding-top: 20px;
-        background: linear-gradient(rgba(160, 160, 160, 0.8), rgba(255, 255, 255, 0));
+        background: linear-gradient(rgba(37, 36, 64, 0.8), rgba(255, 255, 255, 0));
         align-items: flex-start;
 
         .navbar-brand {
             .navbar-item {
                 padding-top: 0;
+                align-items: flex-start;
             }
         }
 
@@ -79,7 +80,7 @@
                 width: 0;
                 height: 100%;
                 position: absolute;
-                border: 1px solid rgba(116, 134, 156, 0.1);
+                border: 1px solid rgba(135, 135, 135, 0.4);
                 top: 0;
                 left: 100%;
 
