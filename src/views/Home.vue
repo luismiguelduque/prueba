@@ -7,7 +7,9 @@
          :data="product"
          :index="index">
     </box>
+    <title-section title="#ESPUFI" subtitle="INSTAGRAM"></title-section>
     <gallery></gallery>
+    <title-section title="SUSCRIBITE" subtitle="NEWSLETTER" bottom="Y enterate de todas las novedades"></title-section>
     <suscribite></suscribite>
     <footer-content></footer-content>
   </div>
@@ -22,6 +24,7 @@ import Suscribite from "../components/Suscribite";
 import FooterContent from "../components/FooterContent";
 import MenuContent from "../components/MenuContent";
 import productItems from "../utils/productsItems";
+import TitleSection from "../components/TitleSection";
 
 export default {
   name: 'Home',
@@ -41,6 +44,7 @@ export default {
     Gallery,
     Suscribite,
     MenuContent,
+    TitleSection
   }
 }
 </script>

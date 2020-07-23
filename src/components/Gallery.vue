@@ -1,10 +1,9 @@
 <template>
     <div class="columns">
-        <div class="column is-three-fifths is-offset-one-fifth">
-            <div class="columns">
-                <div class="column" v-for="(item, index) in items" :key="index">
-                    <!-- <img class="image-gallery" :src="item.image"> -->
-                    {{ item.image }}
+        <div class="column is-half is-offset-one-quarter">
+            <div class="columns is-multiline">
+                <div class="column is-4" v-for="(item, index) in items" :key="index">
+                    <img class="image-gallery" :src="getImgUrl(item.image)">
                 </div>
             </div>
         </div>
@@ -28,7 +27,13 @@
             }else{
                 this.items = galleryItems;
             }
-        }
+        },
+        methods: {
+            getImgUrl(image){
+                var images = require.context('../assets/', false, /\.png$/);
+                return images('./' + image + ".png");
+            },
+        },
     }
 </script>
 
