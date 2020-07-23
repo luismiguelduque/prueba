@@ -62,6 +62,8 @@
 
 <style lang="scss">
     .navbar {
+        position: absolute;
+        width: 100%;
         padding-top: 30px;
         background: linear-gradient(rgba(37, 36, 64, 0.8), rgba(255, 255, 255, 0));
         align-items: flex-start;
@@ -122,6 +124,7 @@
                             font-size: 0.6rem;
                             text-decoration: none;
                             color: white;
+                            padding-top: 0;
                             &:hover {
                                 background-color: transparent;
                                 text-shadow: 2px 2px 5px #888;
