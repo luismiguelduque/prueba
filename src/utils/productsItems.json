@@ -1,32 +1,32 @@
 [
   {
     "shop": true,
-    "image": "image1",
-    "image-icon": "image-icon.png",
+    "image": "16",
+    "imageIcon": "11",
     "title": "Pufi RAIN",
     "description": "Descripción delproducto. Este es un texto simulado",
     "link": "VER MAS"
   },
   {
     "shop": false,
-    "image": "image2",
-    "image-icon": "image-icon.png",
+    "image": "9",
+    "imageIcon": "14",
     "title": "Pufi PUFF",
     "description": "Descripción delproducto. Este es un texto simulado",
     "link": "VER MAS"
   },
   {
     "shop": false,
-    "image": "image3",
-    "image-icon": "image-icon.png",
+    "image": "8",
+    "imageIcon": "15",
     "title": "Pufi CART",
     "description": "Descripción delproducto. Este es un texto simulado",
     "link": "VER MAS"
   },
   {
     "shop": false,
-    "image": "image4",
-    "image-icon": "image-icon.png",
+    "image": "7",
+    "imageIcon": "12",
     "title": "Pufi NAP",
     "description": "Descripción delproducto. Este es un texto simulado",
     "link": "MÁS INFO"

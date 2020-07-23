@@ -62,7 +62,7 @@
 
 <style lang="scss">
     .navbar {
-        padding-top: 20px;
+        padding-top: 30px;
         background: linear-gradient(rgba(37, 36, 64, 0.8), rgba(255, 255, 255, 0));
         align-items: flex-start;
 
