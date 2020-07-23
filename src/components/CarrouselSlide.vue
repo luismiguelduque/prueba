@@ -42,7 +42,8 @@
 
 <style lang="scss">
     .VueCarousel {
-        top: -72px;
+        top: -82px;
+
         .image-slide {
             width: 100% !important;
             position: relative;

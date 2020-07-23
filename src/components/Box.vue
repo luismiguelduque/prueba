@@ -4,7 +4,7 @@
             <img :src="getImgUrl(data.image)" :alt="data.title">
         </div>
         <div class="column info-box">
-            <img :src="'../assets/' + data.imagenIcon" :alt="data.title">
+            <img :src="getImgUrl(data.imageIcon)" :alt="data.title">
             <div class="title">
                 {{data.title}}
             </div>
@@ -27,8 +27,8 @@
         },
         methods: {
             getImgUrl(image){
-                var images = require.context('../assets/', false, /\.jpg$/);
-                return images('./' + image + ".jpg");
+                var images = require.context('../assets/', false, /\.png$/);
+                return images('./' + image + ".png");
             },
         },
     }
